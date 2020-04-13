@@ -32,9 +32,7 @@ validarCheckbox=function (e) {
 }else {
     alert(" no has completado el campo de terminos y condiciones");
     e.preventDefault();
-
   }
-
 }
 
  validar = function (e) {
@@ -44,6 +42,4 @@ validarCheckbox=function (e) {
  }
 
  formulario.addEventListener("submit",validar);
-
-
 }())
