@@ -1,6 +1,8 @@
 var formulario;
 var elementos;
 var boton;
+var validarNombre;
+var validar;
 
 
 (function () {
@@ -9,13 +11,13 @@ var boton;
  elementos = formulario.elements;
  boton= document.getElementById('btn');
 
-var validarNombre=function () {
+validarNombre=function () {
 if (formulario.nombre.value==0) {
   alert("Completa el campo Nombre");
 }
 }
 
-var validar = function () {
+ validar = function () {
     validarNombre();
  }
 
